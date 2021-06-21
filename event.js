@@ -8,6 +8,7 @@ function eventText() {
   let li = document.createElement("li");
   li.innerHTML = value;
   clearText();
+  let list = document.getElementById('list');
 
   list.prepend(li);
 }
